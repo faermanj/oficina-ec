@@ -1,14 +1,13 @@
 ---
 layout: slides
 ---
-{% assign seasons =  site.posts | sort: 'season' | group_by: 'season' %}
+{% assign seasons =  site.slides | sort: 'season' | group_by: 'season' %}
 {% for season in seasons %}
 <section>
-	{% assign episodes = season.items %}
+	{% assign episodes = season.items | sort: 'episode' %}
 	{% for ep in episodes %}
 	<section>
-		<h1>{{ep.name}}</h1>
-		<p>{{ep.content}}</p>
+		{{ep.content}}
 	</section>
 	{% endfor %}
 </section>

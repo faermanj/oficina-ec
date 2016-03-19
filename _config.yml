@@ -17,3 +17,7 @@ github_username:  jfaerman
 
 # Build settings
 markdown: kramdown
+
+collections:
+  slides:
+    output: true
