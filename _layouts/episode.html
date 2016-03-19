@@ -1,5 +1,7 @@
 ---
 ---
-<section>
-{{ content }}
+<section 
+{% if page.background %} data-background="{{page.background | prepend: site.baseurl }}" {% endif %} 
+>
+{{ content }} 
 </section>

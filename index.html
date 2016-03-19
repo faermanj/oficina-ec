@@ -6,9 +6,7 @@ layout: slides
 <section>
 	{% assign episodes = season.items | sort: 'episode' %}
 	{% for ep in episodes %}
-	<section>
-		{{ep.content}}
-	</section>
+		{{ep.output}}
 	{% endfor %}
 </section>
 {% endfor %}				
