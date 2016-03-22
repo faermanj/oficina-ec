@@ -1,6 +1,6 @@
 ---
 season: "01"
-episode: "07"
+episode: "10"
 background: "/img/console-home.png"
 ---
 <div class="banner">
