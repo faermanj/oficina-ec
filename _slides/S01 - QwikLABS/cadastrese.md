@@ -1,5 +1,5 @@
 ---
-season: "00"
+season: "01"
 episode: "02"
 ---
 Cadastre-se em <a target="_blank" href="http://aws.qwiklabs.com">https://<span style="color:red;">aws</span>.qwiklabs.com/</a>

@@ -1,5 +1,5 @@
 ---
-season: "00"
+season: "01"
 episode: "07"
 background: "/img/console-home.png"
 ---
