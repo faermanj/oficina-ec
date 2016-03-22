@@ -1,10 +1,11 @@
 ---
-season: "01"
-episode: "05"
+season: "00"
+episode: "051"
 ---
-# Referências sobre Entrega Contínua
+# Referências sobre Práticas em DevOps
 
-1. [Blue/Green deployment](https://www.thoughtworks.com/radar/techniques/blue-green-deployment)
-1. [Canary builds](https://www.thoughtworks.com/radar/techniques/canary-builds)
-1. [Decoupling deployment from release](https://www.thoughtworks.com/radar/techniques/decoupling-deployment-from-release) 
-1. [Immutable Servers](https://www.thoughtworks.com/radar/tools/immutable-servers)
+- [Blue/Green deployment](https://www.thoughtworks.com/radar/techniques/blue-green-deployment)
+- [Canary builds](https://www.thoughtworks.com/radar/techniques/canary-builds)
+- [Decoupling deployment from release](https://www.thoughtworks.com/radar/techniques/decoupling-deployment-from-release) 
+- [Immutable Servers](https://www.thoughtworks.com/radar/tools/immutable-servers)
+- [Feature Toggle](http://martinfowler.com/bliki/FeatureToggle.html)
